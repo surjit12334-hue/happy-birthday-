@@ -1,0 +1,1 @@
+const t=new Date('2026-07-22T00:00:00');setInterval(()=>{let d=t-new Date();if(d<0)return count.innerText='Happy Birthday!';let s=Math.floor(d/1000),D=Math.floor(s/86400);s%=86400;let H=Math.floor(s/3600);s%=3600;let M=Math.floor(s/60);let S=s%60;count.innerText=`${D}d ${H}h ${M}m ${S}s`;},1000);
